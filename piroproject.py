@@ -46,7 +46,7 @@ if __name__ == '__main__':
                 speechtx(age)
 
             elif "time" in data1:
-                time = datetime.datetime.now().strftime("%I%M%p")
+                time = datetime.datetime.now().strftime("%I%M%p") # Hours:Minutes:PM/AM
                 speechtx(time)
 
             elif "google" in data1:
